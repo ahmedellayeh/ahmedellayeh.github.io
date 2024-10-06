@@ -1,0 +1,34 @@
+@font-face {
+  font-family: outfit-bold;
+  src: url('outfit-bold.ttf');
+}
+@font-face {
+  font-family: outfit-extra-light;
+  src: url('outfit-extralight.ttf');
+}
+@font-face {
+  font-family: outfit-medium;
+  src: url('outfit-medium.ttf');
+}
+@font-face {
+  font-family: manjari;
+  src: url('./question-mark.ttf');
+}
+html {
+  height: 100vh;
+  background-color: black;
+}
+body {
+  margin: 0;
+  height: 100%;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  color: white;
+}
